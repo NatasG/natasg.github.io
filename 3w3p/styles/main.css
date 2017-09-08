@@ -1,0 +1,316 @@
+.header {
+	position: relative;
+	height:70px;
+}
+
+#logo {
+	height:70px;
+	float: left;
+	margin-left: 200px;
+}
+
+.header .menu {
+	list-style-type: none;
+}
+
+.header .menu li {
+	float: left;
+	margin-top: 20px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.header .menu li:first-child {
+	margin-left: 50px;
+}
+
+.header .menu li:last-child {
+	margin-right: 50px;
+}
+
+.header .menu li a {
+	text-decoration: none;
+	color: grey;
+}
+
+#donate {
+	margin-top: 13px;
+	border: 1px solid black;
+	padding:7px 30px;
+	background-color: white;
+}
+
+#section1 {
+	position: relative;
+	height: 576px;
+	background-image: url("../images/hero.png");
+	color: white;
+}
+
+#section1 .content{
+	padding-top: 200px;
+	text-align: center;
+}
+
+#section1 .content span{
+	font-size: 36px;
+}
+
+#section1 .btn-group {
+	text-align: center;
+}
+#section1 .btn-student{
+	margin-top: 15px;
+	margin-right:10px;
+	border: 1px solid white;
+	padding:15px 60px;
+	border-radius: 8px;
+	background-color: rgba(0,0,0,0.0);
+	font-size: 18px;
+	color: white;
+}
+#section1 .btn-tutor{
+	margin-top: 15px;
+	margin-left:10px;
+	border: 1px solid white;
+	padding:15px 60px;
+	border-radius: 8px;
+	background-color: rgba(232,226,226,0.6);
+	font-size: 18px;
+	color: white;
+}
+
+#section2 {
+	position: relative;
+	height: 460px;
+	color: rgb(75,77,95);
+}
+
+#section2 .content{
+	padding-top: 110px;
+	text-align: center;
+}
+
+#section2 .content span{
+	font-size: 24px;
+}
+
+#section2 .content p{
+	font-size: 48px;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+#section2 .btn {
+	text-align: center;
+}
+
+#section2 .btn-donate{
+	margin-top: 30px;
+	margin-right:10px;
+	border: 1px solid yellow;
+	padding:13px 80px;
+	border-radius: 8px;
+	background-color: rgb(254,204,106);
+	font-size: 14px;
+	color: rgb(75,77,95);
+}
+
+#section3 {
+	position: relative;
+	height: 510px;
+	background-color: rgb(147,207,178);
+	text-align: center;
+}
+
+#section3 .left {
+	float: left;
+	width: 50%;
+}
+
+#section3 .right {
+	float: left;
+	width: 50%;
+	color: white;
+}
+
+#section3 .left img {
+	width: 200px;
+	height: 200px;
+	margin-top:140px;
+	padding-left: 200px;
+}
+
+#section3 .right p {
+	padding-right: 400px;
+	text-align: left;
+	font-size: 18px;
+}
+
+#section3 .right p.title {
+	font-size: 36px;
+	margin-top:100px;
+	margin-bottom: 0;
+}
+
+#section3 .right .btn-start-learning {
+	border: 1px solid rgb(124,179,153);
+	padding:10px 60px;
+	border-radius: 4px;
+	background-color: rgb(126,181,154);
+	font-size: 14px;
+	color: white;
+	float: left;
+}
+
+#section4 {
+	position: relative;
+	height: 510px;
+	background-color: rgb(254,204,106);
+	text-align: center;
+}
+
+#section4 .left {
+	float: left;
+	width: 50%;
+	color: white;
+}
+
+#section4 .right {
+	float: left;
+	width: 50%;
+	color: white;
+}
+
+#section4 .right img {
+	width: 200px;
+	height: 200px;
+	margin-top:140px;
+	padding-right: 400px;
+}
+
+#section4 .left p {
+	padding-left: 300px;
+	text-align: left;
+	font-size: 18px;
+}
+
+#section4 .left p.title {
+	font-size: 36px;
+	margin-top:100px;
+	margin-bottom: 0;
+}
+
+#section4 .left .btn-join-us {
+	border: 1px solid rgb(237,190,100);
+	padding:10px 80px;
+	border-radius: 4px;
+	background-color: rgb(233,187,99);
+	font-size: 14px;
+	color: white;
+	margin-top: 20px;
+	margin-left: 80px;
+}
+
+#section5 {
+	position: relative;
+	height: 510px;
+	background-color: rgb(129,168,202);
+	text-align: center;
+}
+
+#section5 .left {
+	float: left;
+	width: 50%;
+}
+
+#section5 .right {
+	float: left;
+	width: 50%;
+	color: white;
+}
+
+#section5 .left img {
+	width: 200px;
+	height: 200px;
+	margin-top:140px;
+	padding-left: 200px;
+}
+
+#section5 .right p {
+	padding-right: 300px;
+	text-align: left;
+	font-size: 18px;
+}
+
+#section5 .right p.title {
+	font-size: 36px;
+	margin-top:100px;
+	margin-bottom: 0;
+}
+
+#section5 .right .btn-help-us {
+	border: 1px solid rgb(122,159,192);
+	padding:10px 80px;
+	border-radius: 4px;
+	background-color: rgb(110,145,175);
+	font-size: 14px;
+	color: white;
+	float: left;
+}
+
+#section6 {
+	position: relative;
+	height: 610px;
+	background-color: white;
+	text-align: center;
+}
+
+#section6 .title {
+	font-size: 48px;
+	margin-top: 120px;
+	margin-bottom: 40px;
+	color: rgb(97,77,105);
+}
+
+#section6 .progress {
+	width: 100%;
+}
+
+#section6 .progress .panel {
+	float: left;
+	border: 1px solid rgb(222,220,215);
+	width: 19%;
+	height: 260px;
+	margin: 50px 100px;
+}
+
+#section6 .progress .panel-left{
+	color: rgb(133,203,171);
+}
+
+#section6 .progress .panel-middle{
+	color: rgb(254,203,106);
+}
+
+#section6 .progress .panel-right{
+	color: rgb(129,168,202);
+}
+
+.panel .panel-title {
+	font-size: 64px;
+}
+
+.footer {
+	position: relative;
+	background-color: black;
+	text-align: center;
+	color:white;
+	height:70px;
+	font-size: 14px;
+}
+
+.footer .content {
+	position: relative;
+	top:25px;
+}
